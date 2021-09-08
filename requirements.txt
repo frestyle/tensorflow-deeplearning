@@ -1,3 +1,7 @@
 tensorflow-hub
 matplotlib
 ipykernel
+pandas
+sklearn
+numpy
+seaborn
