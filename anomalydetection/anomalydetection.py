@@ -21,7 +21,7 @@ from keras.models import Model
 import seaborn as sns
 
     
-dataframe = pd.read_csv('data/AAPL.csv')
+dataframe = pd.read_csv('../lstm/data/AAPL.csv')
 df = dataframe[['Date', 'Close']]
 df['Date'] = pd.to_datetime(df['Date'])
 
