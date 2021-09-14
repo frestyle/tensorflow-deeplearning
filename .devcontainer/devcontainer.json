@@ -11,8 +11,8 @@
 			// Options
 		}
 	},	
-	"runArgs": ["--runtime=nvidia","-e NVIDIA_VISIBLE_DEVICES=all"],
-	// "runArgs": ["--gpus","all"],
+	//"runArgs": ["--runtime=nvidia","-e NVIDIA_VISIBLE_DEVICES=all"],
+	"runArgs": ["--gpus","all"],
 	// Set *default* container specific settings.json values on container create.
 	"settings": { 
 		"python.pythonPath": "/usr/local/bin/python",
